@@ -7,8 +7,8 @@ OrderID,CustomerID,Salary,OrderDate,Category,Quantity,Amount_INR,Discount,Final 
 1006,Cust_10,39222,2026-02-28,Clothing,3,13185.0,18,10811.7,Cash,Bangalore
 1007,Cust_3,21150,2026-03-11,Clothing,1,23822.0,15,20248.7,UPI,Mumbai
 1008,Cust_7,43944,2026-03-21,Electronics,4,21372.0,19,17311.32,Cash,Delhi
-1009,Cust_8,21931,2026-01-03,Fitness,5,,16,,UPI,Amritsar
-1010,Cust_5,29204,2026-01-20,Books,1,,16,,Card,Mumbai
+1009,Cust_8,21931,2026-01-03,Fitness,5,0.0,16,0.0,UPI,Amritsar
+1010,Cust_5,29204,2026-01-20,Books,1,0.0,16,0.0,Card,Mumbai
 1011,Cust_4,38048,2026-02-28,Fitness,3,22861.0,19,18517.41,Cash,Bangalore
 1012,Cust_8,21081,2026-02-05,Books,3,24605.0,18,20176.1,Cash,Mumbai
 1013,Cust_8,49305,2026-01-19,Clothing,1,23919.0,16,20091.96,Cash,Amritsar
@@ -17,14 +17,14 @@ OrderID,CustomerID,Salary,OrderDate,Category,Quantity,Amount_INR,Discount,Final 
 1016,Cust_5,33407,2026-01-19,Electronics,3,16434.0,16,13804.56,Cash,Mumbai
 1017,Cust_2,27805,2026-01-20,Electronics,2,17747.0,17,14730.009999999998,Card,Delhi
 1018,Cust_8,25237,2026-03-12,Clothing,4,19674.0,16,16526.16,Card,Delhi
-1019,Cust_6,36943,2026-02-21,Clothing,3,,15,,Cash,Noida
+1019,Cust_6,36943,2026-02-21,Clothing,3,0.0,15,0.0,Cash,Noida
 1020,Cust_2,40056,2026-02-02,Electronics,1,9255.0,19,7496.55,Card,Amritsar
 1021,Cust_5,32775,2026-02-09,Books,4,22000.0,19,17820.0,Cash,Delhi
 1022,Cust_1,43788,2026-02-08,Clothing,1,12883.0,18,10564.06,Cash,Bangalore
 1023,Cust_10,36244,2026-03-23,Electronics,1,22903.0,16,19238.52,Card,Delhi
 1024,Cust_6,33184,2026-01-01,Clothing,2,18641.0,15,15844.85,Cash,Delhi
 1025,Cust_9,23343,2026-01-11,Electronics,4,15320.0,18,12562.4,Card,Amritsar
-1026,Cust_1,33500,2026-02-26,Books,4,,17,,UPI,Mumbai
+1026,Cust_1,33500,2026-02-26,Books,4,0.0,17,0.0,UPI,Mumbai
 1027,Cust_10,40454,2026-03-30,Electronics,2,6874.0,18,5636.679999999999,Cash,Delhi
 1028,Cust_3,49375,2026-02-19,Fitness,3,23776.0,18,19496.32,UPI,Noida
 1029,Cust_7,29662,2026-01-23,Books,1,2178.0,16,1829.52,Card,Mumbai
@@ -44,7 +44,7 @@ OrderID,CustomerID,Salary,OrderDate,Category,Quantity,Amount_INR,Discount,Final 
 1043,Cust_10,48621,2026-01-09,Clothing,5,3193.0,17,2650.19,UPI,Delhi
 1044,Cust_9,29435,2026-01-19,Clothing,4,14431.0,18,11833.42,Cash,Mumbai
 1045,Cust_10,41572,2026-02-17,Home Decor,2,4127.0,19,3342.8700000000003,Cash,Delhi
-1046,Cust_5,31310,2026-03-21,Home Decor,4,,19,,Cash,Noida
+1046,Cust_5,31310,2026-03-21,Home Decor,4,0.0,19,0.0,Cash,Noida
 1047,Cust_2,33296,2026-01-03,Books,3,10673.0,18,8751.859999999999,Card,Amritsar
 1048,Cust_4,38525,2026-01-20,Clothing,3,22334.0,16,18760.56,UPI,Noida
 1049,Cust_7,33245,2026-01-24,Electronics,1,18547.0,19,15023.070000000002,Card,Mumbai

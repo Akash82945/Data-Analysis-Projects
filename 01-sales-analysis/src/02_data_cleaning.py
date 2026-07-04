@@ -3,7 +3,7 @@ import pandas as pd
 
 
 # Load Dataset
-df = pd.read_csv('data/Sales.csv')
+df = pd.read_csv('data/Sales.csv', skipinitialspace=True)
 print(df.head())
 
 
@@ -17,7 +17,7 @@ print(missing_val)
 
 
 # Handle Missing Values
-handle_missing_val = df.fillna(0)
+df.fillna(0, inplace=True)
 print('Successfully Handle Missing Values.')
 
 
