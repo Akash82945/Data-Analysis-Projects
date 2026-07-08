@@ -1,7 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from pyparsing import Char
-
 
 df = pd.read_csv('data/Clean_sales.csv')
 print(df.columns)
