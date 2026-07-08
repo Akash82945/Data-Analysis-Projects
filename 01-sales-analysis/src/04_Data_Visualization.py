@@ -34,7 +34,7 @@ plt.xlabel('Product Category.')
 plt.ylabel('Revenue (INR)')
 plt.legend()
 plt.grid(True, axis='y', linestyle='--')
-plt.savefig('visuals/01 Revenue by Category (BAR)')
+plt.savefig('visuals/01_Revenue_by_Category_Bar')
 plt.show()
 
 
@@ -53,7 +53,7 @@ plt.ylabel('Revenue')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.savefig('visuals/02 Monthly Revenue Trend (Line).')
+plt.savefig('visuals/02_Monthly_Revenue_Trend_Line.')
 plt.show()
 
 
@@ -68,7 +68,7 @@ plt.title('Revenue Share by Category.(PIE)')
 plt.legend()
 plt.xticks(rotation=40, ha='right')
 plt.tight_layout()
-plt.savefig('visuals/03 Revenue sahre by categpry.')
+plt.savefig('visuals/03_Revenue_Sahre_by_Categpry.')
 plt.show()
 
 
@@ -87,7 +87,7 @@ plt.ylabel('Revenue ID')
 plt.tight_layout()
 plt.grid(True)
 plt.xticks(rotation=30)
-plt.savefig('visuals/04 Top 5 Customer')
+plt.savefig('visuals/04_Top_5_Customer')
 plt.show()
 plt.close() 
 
@@ -109,7 +109,7 @@ plt.ylabel('Quantity')
 plt.grid(True, axis='y', linestyle='--')
 plt.xticks(rotation=30)
 plt.tight_layout()
-plt.savefig('visuals/05 Quantity sold.')
+plt.savefig('visuals/05_Quantity_sold_by_Category.')
 plt.show()
 plt.close() 
 
@@ -131,7 +131,7 @@ ax_hist.set_xlabel('Order Amount (INR)')
 ax_hist.set_ylabel('Number of orders')
 ax_hist.grid(True)
 plt.tight_layout()
-plt.savefig('visuals/06 Order Amount Distribution')
+plt.savefig('visuals/06_Order_Amount_Distribution')
 plt.show()
 
 
@@ -196,7 +196,8 @@ axes[1,1].scatter(
     category_discount['Discount'], 
     color='orange',
     marker='o',
-    markersize=4
+    s =40,
+    edgecolor='black'    
 )
 axes[1,1].set_title('Category Wise Discount.')
 axes[1,1].set_ylabel('Discount INR')
@@ -238,5 +239,5 @@ ax_qa.text(0.01, 0.95, qa_text, fontsize=9.5, verticalalignment='top',
 plt.tight_layout(pad=3.0)
 fig.subplots_adjust(bottom=0.12)
 
-plt.savefig('visuals/DashBoard')
+plt.savefig('visuals/DashBoard_Chart')
 plt.show()
